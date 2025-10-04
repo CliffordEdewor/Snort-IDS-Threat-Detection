@@ -1,2 +1,2 @@
-# Snort-IDS-Threat-Detection
-Using Snort for Real-Time Threat Detection and Mitigation of Cyber Threats Based on Known Vulnerabilities
+# Real-Time Threat Detection and Mitigation Using Snort IDS
+This project demonstrates real-time threat detection and mitigation using Snort IDS to identify and block attacks based on known vulnerabilities.
