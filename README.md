@@ -23,5 +23,8 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 ## 📸 Screenshots & Results
 _Add screenshots of Snort detecting attacks, alert logs, and mitigation steps here._  
 
-## Academic Context
-This project was developed and successfully defended as a final-year academic project at the Petroleum Training Institute (PTI), Nigeria. 
+## 📚 Use Case
+This project was developed and successfully defended as a final-year academic project under the supervision of the **Computer Science Department, Petroleum Training Institute (PTI), Nigeria**, demonstrating the deployment of Snort IDS for real-time intrusion detection and network threat mitigation.
+
+## 📄 License
+For educational demonstration and academic research.  
