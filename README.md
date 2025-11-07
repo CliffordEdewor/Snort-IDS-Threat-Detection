@@ -21,7 +21,20 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Custom Snort rules  
 
 ## 📸 Screenshots & Results
-_Add screenshots of Snort detecting attacks, alert logs, and mitigation steps here._  
+
+<p align="center">
+  <img src="assets/Snort_Project.png" alt="Snort IDS Project Overview" width="80%" />
+</p>  
+
+<p align="center">
+  <img src="assets/Screenshot_77.png" alt="Snort IDS Alert Log" width="45%" />
+  <img src="assets/Screenshot_99.png" alt="Network Traffic Analysis" width="45%" />
+</p>  
+
+<p align="center">
+  <img src="assets/Screenshot_101.png" alt="Custom Snort Rules in Action" width="45%" />
+  <img src="assets/Screenshot_102.png" alt="Threat Mitigation Demonstration" width="45%" />
+</p>  
 
 ## 📚 Use Case
 This project was developed and successfully defended as a final-year academic project under the supervision of the **Computer Science Department, Petroleum Training Institute (PTI), Nigeria**, demonstrating the deployment of Snort IDS for real-time intrusion detection and network threat mitigation.
