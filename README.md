@@ -23,7 +23,7 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 ## 📸 Screenshots & Results
 
 <p align="center">
-  <img src="assets/Snort_Project.png" alt="Snort IDS Project Overview" width="80%" />
+  <img src="images/Snort_Project.png" alt="Snort IDS Project Overview" width="80%" />
 </p>  
 
 <p align="center">
