@@ -22,19 +22,20 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 
 ## 📸 Screenshots & Results
 
-<p align="center">
-  <img src="images/Snort_Project.png" alt="Snort IDS Project Overview" width="80%" />
-</p>  
+### VirtualBox Lab Environment Overview
+![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
 
-<p align="center">
-  <img src="images/Screenshot_77.png" alt="Snort IDS Alert Log" width="45%" />
-  <img src="images/Screenshot_99.png" alt="Network Traffic Analysis" width="45%" />
-</p>  
+### Snort Traffic Analysis Log 1
+![Snort Traffic Analysis Log 1](images/snort-traffic-analysis-log-1.png)
 
-<p align="center">
-  <img src="images/Screenshot_101.png" alt="Custom Snort Rules in Action" width="45%" />
-  <img src="images/Screenshot_102.png" alt="Threat Mitigation Demonstration" width="45%" />
-</p> 
+### Snort Setup & Configuration Screen
+![Snort Setup Configuration](images/snort-setup-configuration-screen.png)
+
+### Snort Alert Log 2
+![Snort Alert Log 2](images/snort-alert-log-2.png)
+
+### Snort Alert Log 3
+![Snort Alert Log 3](images/snort-alert-log-3.png)
 
 ## 📚 Use Case
 This project was developed and successfully defended as a final-year academic project under the supervision of the **Computer Science Department, Petroleum Training Institute (PTI), Nigeria**, demonstrating the deployment of Snort IDS for real-time intrusion detection and network threat mitigation.
