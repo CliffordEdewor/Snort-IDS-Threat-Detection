@@ -25,11 +25,11 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 ### VirtualBox Lab Environment Overview
 ![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
 
-### Snort Traffic Analysis Log 1
-![Snort Traffic Analysis Log 1](images/snort-traffic-analysis-log-1.png)
-
 ### Snort Setup & Configuration Screen
 ![Snort Setup Configuration](images/snort-setup-configuration-screen.png)
+
+### Snort Traffic Analysis Log 1
+![Snort Traffic Analysis Log 1](images/snort-traffic-analysis-log-1.png)
 
 ### Snort Alert Log 2
 ![Snort Alert Log 2](images/snort-alert-log-2.png)
