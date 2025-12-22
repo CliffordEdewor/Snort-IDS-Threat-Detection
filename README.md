@@ -9,13 +9,6 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Evaluate the effectiveness of Snort in protecting network infrastructure.
 
 ## 🧩 Project Architecture & Workflow
-1. Network traffic is generated within a simulated lab environment.
-2. Snort monitors traffic in real time using custom detection rules.
-3. Suspicious packets trigger alerts and are logged.
-4. Logs are analyzed using Snort output and Wireshark.
-5. Identified threats inform mitigation and response actions.
-
-## 🧩 Project Architecture & Workflow
 
 ![Architecture Overview](images/architecture-overview.png)
 
