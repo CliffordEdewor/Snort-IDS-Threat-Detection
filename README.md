@@ -15,6 +15,17 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 4. Logs are analyzed using Snort output and Wireshark.
 5. Identified threats inform mitigation and response actions.
 
+## 🧩 Project Architecture & Workflow
+
+![Architecture Overview](images/architecture-overview.png)
+
+*Figure: High-level architecture showing traffic flow and IDS monitoring.*
+
+1. External traffic originates from an attacker machine.
+2. Traffic passes through the internet, router, and firewall.
+3. Snort IDS inspects packets in real time.
+4. Suspicious activity triggers alerts to the administrator.
+5. Legitimate traffic reaches internal hosts.
 
 ## ⚡ Key Features
 - Packet inspection and rule-based intrusion detection  
