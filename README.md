@@ -6,13 +6,26 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Deploy and configure Snort IDS for real-time monitoring.  
 - Detect and analyze malicious traffic using custom rules.  
 - Mitigate detected threats through incident response measures.  
-- Evaluate the effectiveness of Snort in protecting network infrastructure.  
+- Evaluate the effectiveness of Snort in protecting network infrastructure.
+
+## 🧩 Project Architecture & Workflow
+1. Network traffic is generated within a simulated lab environment.
+2. Snort monitors traffic in real time using custom detection rules.
+3. Suspicious packets trigger alerts and are logged.
+4. Logs are analyzed using Snort output and Wireshark.
+5. Identified threats inform mitigation and response actions.
+
 
 ## ⚡ Key Features
 - Packet inspection and rule-based intrusion detection  
 - Real-time alerts on suspicious activities  
 - Log analysis for forensic investigation  
-- Integration with system/network defense measures  
+- Integration with system/network defense measures
+
+## 📊 Outcomes & Results
+- Successfully detected simulated attack patterns such as port scans and suspicious payloads.
+- Generated real-time alerts with tuned rules to reduce false positives.
+- Demonstrated effective incident response through structured log analysis.  
 
 ## 🔧 Technologies & Tools
 - Snort IDS  
