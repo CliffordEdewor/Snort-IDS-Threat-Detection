@@ -1,15 +1,14 @@
 # Snort Installation Guide
 
-This document provides step-by-step instructions for installing and configuring Snort IDS in the lab environment used for this project.
+This document provides step-by-step instructions for installing Snort IDS.
 
 ## Prerequisites
 - Ubuntu 20.04 LTS
-- Internet connectivity
+- Internet access
 - Sudo privileges
 
 ## Installation Steps
 
-```bash
 sudo apt update
 sudo apt install -y build-essential libpcap-dev libpcre3-dev libdumbnet-dev bison flex zlib1g-dev xz-utils libssl-dev
 
@@ -26,5 +25,4 @@ cd snort-2.9.20
 ./configure --enable-sourcefire
 make
 sudo make install
-
 snort -V
