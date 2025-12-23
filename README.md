@@ -20,6 +20,34 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 4. Suspicious activity triggers alerts to the administrator.
 5. Legitimate traffic reaches internal hosts.
 
+## 🖥️ Lab Environment & Requirements
+
+**Hardware**
+- Host machine with Intel Core i5 or higher
+- Minimum 8GB RAM (16GB recommended)
+- Ethernet-capable NIC with packet capture support
+
+**Virtual Machines**
+- Snort IDS Machine: Ubuntu 20.04 LTS
+- Attack Machine: Kali Linux
+
+**Software & Tools**
+- Oracle VM VirtualBox
+- Snort IDS (v2.9.20)
+- Wireshark
+- Metasploit Framework
+
+## ⚙️ Snort Configuration Overview
+
+- Ubuntu 20.04 LTS was installed and configured as the IDS host.
+- Snort 2.9.20 was compiled and installed with required dependencies.
+- Custom detection rules were created and tuned.
+- Snort was configured to generate real-time alerts and logs.
+
+Detailed installation steps are available in
+
+[Snort Installation Guide](docs/snort-installation.md).
+
 ## ⚡ Key Features
 - Packet inspection and rule-based intrusion detection  
 - Real-time alerts on suspicious activities  
@@ -37,7 +65,7 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Kali Linux / Ubuntu environments  
 - Custom Snort rules  
 
-## 📸 Screenshots & Results
+## 📸 Implementation Evidence
 
 ### VirtualBox Lab Environment Overview
 ![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
