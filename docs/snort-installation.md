@@ -9,6 +9,7 @@ This document provides step-by-step instructions for installing Snort IDS.
 
 ## Installation Steps
 
+```bash
 sudo apt update
 sudo apt install -y build-essential libpcap-dev libpcre3-dev libdumbnet-dev bison flex zlib1g-dev xz-utils libssl-dev
 
@@ -25,4 +26,5 @@ cd snort-2.9.20
 ./configure --enable-sourcefire
 make
 sudo make install
+
 snort -V
