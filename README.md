@@ -47,7 +47,7 @@ This project was implemented in an isolated virtualised lab environment to safel
 - Ubuntu 20.04 LTS was installed and configured as the IDS host.
 - Snort 2.9.20 was compiled and installed with required dependencies.
 - Custom detection rules were created and tuned.
-- Snort was configured to generate real-time alerts and logs.
+- Snort was configured to generate real-time alerts and structured logs for threat detection and post-incident analysis.
 
 Detailed installation steps are available in
 
@@ -62,7 +62,8 @@ Detailed installation steps are available in
 ## 📊 Outcomes & Results
 - Successfully detected simulated attack patterns such as port scans and suspicious payloads.
 - Generated real-time alerts with tuned rules to reduce false positives.
-- Demonstrated effective incident response through structured log analysis.  
+- Demonstrated effective incident response through structured log analysis.
+- The project demonstrates practical application of intrusion detection concepts aligned with real-world enterprise and academic security use cases. 
 
 ## 🔧 Technologies & Tools
 - Snort IDS  
