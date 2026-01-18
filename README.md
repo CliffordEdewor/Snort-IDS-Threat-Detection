@@ -8,6 +8,11 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Mitigate detected threats through incident response measures.  
 - Evaluate the effectiveness of Snort in protecting network infrastructure.
 
+## 🖥️ Lab Environment & Requirements
+
+### VirtualBox Lab Environment Overview
+![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
+
 ## 🧩 Project Architecture & Workflow
 
 ![Architecture Overview](images/architecture-overview.png)
@@ -66,9 +71,6 @@ Detailed installation steps are available in
 - Custom Snort rules  
 
 ## 📸 Implementation Evidence
-
-### VirtualBox Lab Environment Overview
-![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
 
 ### Snort Setup & Configuration Screen
 ![Snort Setup Configuration](images/snort-setup-configuration-screen.png)
