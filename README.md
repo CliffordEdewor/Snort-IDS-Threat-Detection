@@ -10,22 +10,10 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 
 ## 🖥️ Lab Environment & Requirements
 
+This project was implemented in an isolated virtualised lab environment to safely simulate real-world attack and detection scenarios without impacting production systems.
+
 ### VirtualBox Lab Environment Overview
 ![VirtualBox Lab Overview](images/virtualbox-lab-environment-overview.png)
-
-## 🧩 Project Architecture & Workflow
-
-![Architecture Overview](images/architecture-overview.png)
-
-*Figure: High-level architecture showing traffic flow and IDS monitoring.*
-
-1. External traffic originates from an attacker machine.
-2. Traffic passes through the internet, router, and firewall.
-3. Snort IDS inspects packets in real time.
-4. Suspicious activity triggers alerts to the administrator.
-5. Legitimate traffic reaches internal hosts.
-
-## 🖥️ Lab Environment & Requirements
 
 **Hardware**
 - Host machine with Intel Core i5 or higher
@@ -41,6 +29,18 @@ This project demonstrates the use of Snort Intrusion Detection System (IDS) for 
 - Snort IDS (v2.9.20)
 - Wireshark
 - Metasploit Framework
+
+## 🧩 Project Architecture & Workflow
+
+![Architecture Overview](images/architecture-overview.png)
+
+*Figure: High-level architecture showing traffic flow and IDS monitoring.*
+
+1. External traffic originates from an attacker machine.
+2. Traffic passes through the internet, router, and firewall.
+3. Snort IDS inspects packets in real time.
+4. Suspicious activity triggers alerts to the administrator.
+5. Legitimate traffic reaches internal hosts.
 
 ## ⚙️ Snort Configuration Overview
 
