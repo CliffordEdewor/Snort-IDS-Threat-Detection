@@ -65,6 +65,14 @@ Detailed installation steps are available in
 - Validated detection and investigation workflows through structured alert and log analysis.
 - The implementation demonstrates intrusion detection, monitoring, and alerting workflows aligned with enterprise security operations.
 
+## 🛡️ Operational Relevance
+This implementation reflects practical security monitoring workflows commonly used in Security Operations Centres (SOC), including:
+- Network intrusion detection
+- Security monitoring and alerting
+- Detection engineering and rule tuning
+- Threat investigation and log analysis
+- Incident response support
+
 ## 🔧 Security Stack
 - Snort IDS  
 - Wireshark (traffic analysis)  
