@@ -1,14 +1,14 @@
-# Real-Time Threat Detection and Mitigation Using Snort IDS
+# Snort-Based Intrusion Detection and Threat Monitoring Environment
 
-This project demonstrates the use of Snort Intrusion Detection System (IDS) for real-time detection and mitigation of cyber threats based on known vulnerabilities. It focuses on configuring Snort rules, monitoring network traffic, and responding to suspicious activities in a simulated environment.
+This repository documents the design, implementation, and validation of a Snort-based intrusion detection environment for real-time threat monitoring, attack detection, and security alerting within a virtualised network.
 
-## 🎯 Objectives
-- Deploy and configure Snort IDS for real-time monitoring.  
-- Detect and analyze malicious traffic using custom rules.  
-- Mitigate detected threats through incident response measures.  
+## 🎯 Security Monitoring Capabilities
+- Deploy and configure a Snort IDS sensor for real-time traffic inspection.  
+- Develop and tune custom detection rules for malicious traffic identification.
+- Generate actionable alerts to support incident detection and response workflows.
 - Evaluate the effectiveness of Snort in protecting network infrastructure.
 
-## 🖥️ Lab Environment & Requirements
+## 🖥️ Deployment Environment
 
 This project was implemented in an isolated virtualised lab environment to safely simulate real-world attack and detection scenarios without impacting production systems.
 
@@ -30,7 +30,7 @@ This project was implemented in an isolated virtualised lab environment to safel
 - Wireshark
 - Metasploit Framework
 
-## 🧩 Project Architecture & Workflow
+## 🧩 Detection Architecture
 
 ![Architecture Overview](images/architecture-overview.png)
 
@@ -62,10 +62,10 @@ Detailed installation steps are available in
 ## 📊 Outcomes & Results
 - Successfully detected simulated attack patterns such as port scans and suspicious payloads.
 - Generated real-time alerts with tuned rules to reduce false positives.
-- Demonstrated effective incident response through structured log analysis.
-- The project demonstrates practical application of intrusion detection concepts aligned with real-world enterprise and academic security use cases. 
+- Validated detection and investigation workflows through structured alert and log analysis.
+- The implementation demonstrates intrusion detection, monitoring, and alerting workflows aligned with enterprise security operations.
 
-## 🔧 Technologies & Tools
+## 🔧 Security Stack
 - Snort IDS  
 - Wireshark (traffic analysis)  
 - Kali Linux / Ubuntu environments  
@@ -86,7 +86,7 @@ Detailed installation steps are available in
 ![Snort Alert Log 3](images/snort-alert-log-3.png)
 
 ## 📚 Use Case
-This project was developed and successfully defended as a final-year academic project under the supervision of the **Computer Science Department, Petroleum Training Institute (PTI), Nigeria**, demonstrating the deployment of Snort IDS for real-time intrusion detection and network threat mitigation.
+This implementation demonstrates the deployment of a Snort-based intrusion detection solution for real-time network monitoring, attack detection, and alert generation within a controlled virtualised environment.
 
 ## 📄 License
-This project is intended for educational demonstration, academic research, and portfolio presentation purposes.
+This repository is provided for cybersecurity learning, security monitoring demonstrations, and reference implementation purposes.
