@@ -2,7 +2,7 @@
 
 This repository documents the design, implementation, and validation of a Snort-based intrusion detection environment for real-time threat monitoring, attack detection, and security alerting within a virtualised network.
 
-## 🎯 Security Monitoring Capabilities
+## 🛡️ Security Monitoring Capabilities
 - Deploy and configure a Snort IDS sensor for real-time traffic inspection.  
 - Develop and tune custom detection rules for malicious traffic identification.
 - Generate actionable alerts to support incident detection and response workflows.
@@ -56,7 +56,7 @@ The following attack scenarios were planned and executed during testing.
 | FTP Authentication Attempts | Detect insecure authentication activity | ✅ Detected |
 | Suspicious TCP Traffic | Validate custom rule behaviour | ✅ Detected |
 
-## 🎯 Design Objectives
+## 📐 Design Objectives
 
 The project was designed to achieve the following objectives:
 - Build a functional intrusion detection environment.
@@ -109,7 +109,7 @@ Detailed installation steps are available in
 - Log analysis for forensic investigation  
 - Integration with system/network defense measures
 
-## 📊 Outcomes & Results
+## 📈 Outcomes & Results
 - Successfully detected simulated attack patterns such as port scans and suspicious payloads.
 - Generated real-time alerts with tuned rules to reduce false positives.
 - Validated detection and investigation workflows through structured alert and log analysis.
