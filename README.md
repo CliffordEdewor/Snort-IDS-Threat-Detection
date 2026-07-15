@@ -83,7 +83,7 @@ The detection process included:
 - Analysing captured logs to verify detection accuracy.
 - Refining rule behaviour based on observed network traffic.
 
-### Example Detection Rule
+### Custom Detection Rule
 
 The following custom rule was developed during testing to identify FTP authentication activity and validate real-time alert generation.
 
@@ -97,7 +97,7 @@ alert tcp any any -> any 21 (
 )
 ```
 
-This rule demonstrates the process of creating and validating custom Snort signatures rather than relying solely on default rule sets. It formed part of the broader detection engineering workflow used throughout this project.
+Rather than relying only on the default Snort rules, I created this custom signature to detect FTP authentication attempts during testing. The rule was validated by generating FTP traffic from the attack machine and confirming that Snort produced the expected alerts.
 
 Detailed installation steps are available in
 
