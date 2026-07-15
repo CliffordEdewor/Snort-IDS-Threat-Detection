@@ -151,7 +151,7 @@ The same concepts are commonly used when monitoring segmented industrial network
 
 These capabilities support security operations across both traditional enterprise networks and critical infrastructure environments.
 
-## 🧰 Security Stack
+## 🔐 Security Stack
 - Snort IDS  
 - Wireshark (traffic analysis)  
 - Kali Linux / Ubuntu environments  
